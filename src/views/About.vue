@@ -4,17 +4,25 @@
 
     <div class="paragraph">
       <div>
-        I'm <strong>Declan Tanner</strong>, a gameplay programmer and systems designer.<br/>
-        I recently graduated from Griffith University and am currently looking for work.
+        I'm <strong>Declan Tanner</strong>, a gameplay programmer from Brisbane, Australia, and a
+        Game Design and Production graduate (Game Programming major) from Griffith University.<br/>
+        I like building the systems that make a game feel good to play: movement, enemy AI, combat, timing, and physics-driven mechanics. 
+        Most of these I've built using UE5 Blueprints, C++ or C#.
       </div>
 
-      <div style="margin-top: 20px;">I've worked on  <router-link to="/game-projects">stuff</router-link>, on <router-link to="/other-projects">other stuff</router-link>, and took part in <router-link to="/resume">a few things</router-link> as well.</div>
+      <div style="margin-top: 20px;">
+        Recently I've been the sole programmer on a game jam team, built a Stray-inspired camera
+        and guard AI for a stealth game, and written a procedural map generator in C++.
+        You can see my <router-link to="/game-projects">games</router-link>,
+        my <router-link to="/other-projects">tools and experiments</router-link>,
+        and my <router-link to="/resume">resume</router-link>.
+      </div>
 
-      <div style="margin-top: 40px;">I'm <strong>currently looking for a job</strong> as a monk, like my good friend John Rambo did a few years back. You can reach me at <a href="mailto:johnmatrix@deltaforce.us">johnmatrix@deltaforce.us</a> or <router-link to="/contact">through here</router-link>.</div>
+      <div style="margin-top: 40px;">You can reach me at <a href="mailto:dttanner76@gmail.com">dttanner76@gmail.com</a> or <router-link to="/contact">through here</router-link>.</div>
     </div>
 
     <div class="photo">
-      <img src="img/avatar.png" alt="Avatar of John" /> 
+      <img src="img/resume-photo.png" alt="Photo of Declan" /> 
     </div>
 
     <div style="clear:both"></div>
@@ -42,6 +50,13 @@
     float: left;
     padding: 10px;
     padding-left: 80px;
+  }
+
+  .photo img {
+  width: 224px;
+  height: 224px;
+  border-radius: 50%;
+  object-fit: cover;
   }
 }
 

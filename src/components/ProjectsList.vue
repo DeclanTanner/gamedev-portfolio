@@ -1,6 +1,8 @@
 <template>
     <div>
-      <div class="projects-list">
+      <div class="projects-list"
+        :style="{ gridTemplateColumns: 'repeat(' + columns + ', 1fr)',
+                  gridAutoRows: 'minmax(' + rowHeight + 'px, auto)' }">
         <template v-for="project in projects">
           <div
             :key="project.id"
@@ -39,7 +41,9 @@ export default Vue.extend({
     ProjectDetailsOverlay,
   },
   props: {
-    projects: Array
+    projects: Array,
+    columns: { type: Number, default: 3 },
+    rowHeight: { type: Number, default: 250 }
   },
   data: function () {
     return {

@@ -27,11 +27,7 @@ export default Vue.extend({
 });
 
 // Preload heavy images or gifs that are used in other pages
-Helpers.preloadImages([
-  "img/projects/project-1-icon.png",
-  "img/projects/project-2-icon.png",
-  "img/projects/project-3-icon.png"
-]);
+Helpers.preloadImages([]);
 
 </script>
 
@@ -75,7 +71,7 @@ h1 {
   font-size: 2.5em;
   font-weight: 100;
   margin-top: -10px;
-  margin-bottom: 40px;
+  margin-bottom: 20px;
   margin-left: -2px; // hack to make it "seem" more aligned with smaller text content
   line-height: 1.1em;
 }
@@ -93,7 +89,7 @@ h1 {
 
   h1 {
     margin-top: 0.67em;
-    margin-bottom: 80px;
+    margin-bottom: 30px;
     line-height: 0.7em;
   }
 
