@@ -22,7 +22,7 @@
     </div>
 
     <div class="photo">
-      <img src="img/resume-photo.png" alt="Photo of Declan" /> 
+      <img src="img/avatar.png" alt="Photo of Declan" /> 
     </div>
 
     <div style="clear:both"></div>
